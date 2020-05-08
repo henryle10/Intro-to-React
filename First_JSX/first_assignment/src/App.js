@@ -2,7 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import List from "./components/List";
+
 function App() {
+  //Two ways of doing the same thing
   return (
     <div>
       <h1>Hello Dojo!</h1>
@@ -13,6 +16,7 @@ function App() {
         <li>Run a marathon</li>
         <li>Feed the dogs</li>
       </ul>
+      <List />
     </div>
   );
 }
