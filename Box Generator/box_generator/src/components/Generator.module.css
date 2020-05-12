@@ -1,0 +1,11 @@
+.myContainerDiv{
+    padding: 20px;
+    margin: 20px;
+}
+
+.myBox{
+    height: 100px;
+    width: 100px;
+    /* Make the color of box dynamically change */
+    background-color: red; 
+}
