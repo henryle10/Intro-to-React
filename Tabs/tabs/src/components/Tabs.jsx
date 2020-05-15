@@ -31,7 +31,7 @@ const Tab = ({ header, content }) => {
         <div>
             <div className={styles.tabSpace}>
                 {tabs.map((tab, i) =>
-                    <button onClick={(e) => onClickHandler(e, i)} key={i} {...tab} style={{ boxShadow: "green" }}>
+                    <button onClick={(e) => onClickHandler(e, i)} key={i} {...tab}>
                         {tab.header}
                     </button>
                 )}
